@@ -1,60 +1,127 @@
 <!--
 Requirements
-[  ] Two External Links
-[  ] Table
-[  ] Three CSS Rules
-[  ] Three Images
+[  yes] Two External Links
+[  yes] Table
+[ 123] Three CSS Rules
+[ 123 ] Three Images
+[yes]<div> and <span>
+[yes]height: and width:
+[yes]margin and padding:
+[yes]google font or uploaded font
+[yes]font-size OR font-style
+[123]five css rules
+[123]three images
+[123]three images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a :hover feature
+[ yes ] Feature 1 - Include a :hover feature
 [ no ] Feature 2 - Include at least two Internal links
 [ no ] Feature 3 - Include a list in a tabl
 [ no ] Feature 4 - Include at least two background images in a table
+[yes]shaking animation-unit5
+[yes]use width and margin css properties-unit4
 -->
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet"/>
+    <meta charset="utf-8" />
+        <title class="title">Some CLASSIC pieces</title>
+    <style>
+      #h1 {
+        color: rgb(36, 73, 137);
+      }
+      .title {
+        color: rgb(90, 201, 243);
+      }
+      #h2 {
+        color: rgb(36, 73, 137);
+      }
+      #info{background-color:rgb(170,235,242)}
+      .para{color:green;font-style:italic;text-decoration:underline;}
+      .picture{background:rgb(219,235,255);
+      width:50%;
+      height:180px;
+      overflow-y:auto;}
+      #pic{width:220px;margin:20px;border:5px solid green; padding:5px;}
+      .image2{width:50%;height:180px;overflow-y:auto;}
+      #flic{width:50%;height:180px;overflow-y:auto;}
+      .img{width:50%;height:180px;overflow-y:auto;}
+      .image2:hover{animation:shake 10s;}
+      @keyframes shake{
+        0%{transorm:translate(20px,20px)rotate(0deg);}
+        10%{transform:translate(-20px,-20px)rotate(-1deg);}
+        20%{transform:translate(-20px,20px)rotate(1deg);}
+        30%{transform:translate(-10px,10px)rotate(1deg);}
+        40%{transform:translate(20px,-20px)rotate(1deg);}
+        50%{transform:translate(-20px,-20px)rotate(0deg);}
+        60%{transform:translate(-20px,20px)rotate(0deg);}
+        70%{transform:translate(-10px,10px)rotate(0deg);}
+        80%{transform:translate(-20px,-20px)rotate(-1deg);}
+        90%{transform:translate(20px,-20px)rotate(1deg);}
+        100%{transform:translate(20px,20px)rotate(1deg);}
+      }
+      .title:hover{background-color:blue;}
+    </style>
+  </head>
 
-<head>
-  <title>Project: Recipe book</title>
-  <meta charset="utf-8">
-  <style>
-  </style>
-</head>
+  <body>
+    <div id="info">
+      <h1 id="h1">classical music I like</h1>
+      <img
+        class="picture"
+        src="https://www.kennedy-center.org/globalassets/education/resources-for-educators/classroom-resources/artsedge/media/guide-to-the-orchestra/2022_11_03_nso_group_photo-169.png"
+      />
+      <img
+        id="image"
+        src="https://theclassicalnovice.com/wp-content/uploads/2015/05/dublin_philharmonic_orchestra_performing_tchaikovskys_symphony_no_4_in_charlotte_north_carolina-e1431911721232.jpg?w=640"
+      />
+      <img
+        id="pic"
+        src="https://thumbs.dreamstime.com/b/symphony-orchestra-diagram-symphony-orchestra-diagram-arrangement-musical-instruments-isolated-images-white-background-237623585.jpg"
+      />
 
-<body>
+      <h2 id="h2">bass features</h2>
 
-  <h1>____'s Recipe Book</h1>
+      <ol>
+        <li><a href="https://youtu.be/jgpJVI3tDbY?si=OmWCaT4U1d14PGLT">Music!</a></li>
+        <li><a href="https://youtu.be/o_4cEfuyNFo?si=XIzCqt5x3dJ8kkC_">More music!</a></li>
+        <li><a href="https://youtu.be/ElWSdcg67RY?si=D7oUjOEfGLZyuXS3">Last Music!!</a></li>
+      
+      </ol>
 
-  <h2>Contents:</h2>
+      <h2 id="?">Recipe #1</h2>
 
-  <ol>
-    <li><a href="?">Recipe #1</a></li>
-  </ol>
-
-  <h2 id="?">Recipe #1</h2>
-
-  <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
-  </ul>
-
-  <table>
-    <thead>
-      <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
-
-  <p><strong>Step 1:</strong> Do something.
-  </p>
-
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
-
-</body>
-
+      <ul>
+        <li>Time: _</li>
+        <li>Serves: _</li>
+      </ul>
+<img class="photo" src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6Mv3JFMMNWdZF4z3hFDzqC/76f34ee51414e85f7ac049d416cbe6bc/sheetmusic_curl_960.jpg">
+      <table>
+        <thead class="head">
+          <tr>
+            <th>benefits of classical music</th>
+          <tr><td>cognitive enhancement</td></tr>
+          </tr>
+          <tr>
+          <td>decrease blood pressure</td>
+          </tr>
+          <tr><td> better sleep</td></tr>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Mozart_family_crop.jpg">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp8AbtOgZMeC8pPM6AXog-5s_QzgcpiaHGlg&s">
+        </thead>
+        <tbody></tbody>
+      </table>
+<img class="image2" src="https://img.apmcdn.org/c75e4ad850e43237fe0568a59ab71b15cb2511ac/uncropped/b80d45-20120627-flute-concert.jpg">
+    <img id="flic" src="https://i0.wp.com/longreads.com/wp-content/uploads/2020/06/ap_991725859918.jpg?fit=1200%2C719&ssl=1">
+      <p><span class="para">classical music is a stimulant.</span></p>
+<img class="img" src="https://assets-us-01.kc-usercontent.com/c7bb3f89-eb78-007e-971a-d5864cf7a236/20d44265-acfd-4536-ba7c-551f8a5584d1/Classical_Music_thumbnail.jpg">
+      <p>
+        <em>Source: <a href="play">Playlist</a></em>
+      </p>
+    </div>
+  </body>
 </html>
